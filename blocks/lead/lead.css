@@ -1,0 +1,31 @@
+.lead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 0 0;
+    position: relative;
+    font-family: 'Inter','Arial','sans-serif';
+    box-sizing: border-box;
+
+
+}
+@media screen and (max-width: 1124px) {
+    .lead {
+        padding: 28px 0 0;
+    }
+
+}
+
+@media screen and (max-width: 984px) {
+    .lead {
+        padding: 24px 0 0;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .lead {
+        padding: 24px 0 0;
+    }
+
+}
