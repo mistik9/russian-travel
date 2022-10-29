@@ -5,33 +5,31 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     position: absolute;
+    margin: 0;
     left: 0;
     bottom: 0;
-    margin: 0;
+
+
 
 }
 
 @media screen and (max-width: 1124px) {
-    .lead__image {
-        margin: 56px 0 8px;
+    .lead__caption {
+       
     }
 
 }
 
 @media screen and (max-width: 984px) {
-    .lead__image {
-        max-width: 100%;
-        margin: 56px 0 8px;
+    .lead__caption {
+        left: 24px;
     }
 
 }
 
 @media screen and (max-width: 568px) {
-    .lead__image {
-        font-size: 10px;
-        line-height: 14px;
+    .lead__caption {
         left: 16px;
-        top: 8px
     }
 
 }

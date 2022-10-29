@@ -1,13 +1,12 @@
- .content__section {
+.content__section {
     box-sizing: border-box;
-    padding: 0 48px;
-    width: 100px;
-    margin: 0 auto;
- }
-@media screen and(max-widht: 1124px) {
-   .content__section {
-      padding: 0;
-    
-   }
-   
+    margin: 0 100px 0;
+
 }
+
+@media screen and (max-width: 1124px) {
+    .content__section {
+        margin: 0;
+    }
+}
+

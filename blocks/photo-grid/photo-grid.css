@@ -1,7 +1,40 @@
 .photo-grid {
-display: grid;
-gap: 14px;
-grid-template-columns: repeat(auto-fit);
-} 
+    max-width: 1184px;
+    min-height: 671px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-flow: row;
+    gap: 16px;
+    box-sizing: border-box;
+
+
+}
+
+@media screen and (max-width: 1124px) {
+    .photo-grid {
+        gap: 14px;
+        grid-template-columns: auto auto auto;
+        grid-auto-flow: row;
+    }
+
+}
+
+@media screen and (max-width: 968px) {
+    .photo-grid {
+        gap: 16px;
+        grid-template-columns: auto auto;
+        grid-auto-flow: row;
+        padding: 0 24px 0;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .photo-grid {
+        gap: 12px;
+        grid-template-columns: auto;
+        grid-auto-flow: row;
+        padding: 0 16px 0;
+    }
 
 }
