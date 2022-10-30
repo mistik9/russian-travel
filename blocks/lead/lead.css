@@ -1,36 +1,8 @@
 .lead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    font-family: 'Inter', 'Arial', 'sans-serif';
-    max-width: 100%;
-    min-height: 1005px;
-    box-sizing: border-box;
-
-
-
-}
-
-@media screen and (max-width: 1124px) {
-    .lead {
-        min-height: 962px;
-    }
-
-}
-
-@media screen and (max-width: 984px) {
-    .lead {
-        min-height: 862px;
-    }
-
-}
-
-@media screen and (max-width: 568px) {
-    .lead {
-        min-height: 406px;
-        
-        
-    }
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", "Arial", "sans-serif";
+  max-width: 100%;
+  box-sizing: border-box;
 }

@@ -1,6 +1,4 @@
 .header__lang-link_activate {
-    max-width: 30px;
-    max-height: 28px;
-    text-decoration: underline;
-
+  max-width: 30px;
+  text-decoration: underline;
 }
