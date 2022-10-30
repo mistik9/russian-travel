@@ -1,7 +1,6 @@
 .content__section {
     box-sizing: border-box;
     margin: 0 100px 0;
-
 }
 
 @media screen and (max-width: 1124px) {
@@ -9,4 +8,3 @@
         margin: 0;
     }
 }
-

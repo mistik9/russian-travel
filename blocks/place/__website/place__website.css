@@ -2,14 +2,13 @@
      margin-bottom: 0;
      padding: 0;
      align-self: end;
-   
-
 
  }
+
  @media screen and (max-width: 568px) {
-    .place__website {
+     .place__website {
          margin: 0 16px 0;
          align-self: stretch;
-     
-    }
-   }
+
+     }
+ }
