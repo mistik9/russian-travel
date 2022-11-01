@@ -7,16 +7,21 @@
   text-decoration: none;
   margin-right: 18px;
   text-align: right;
+  transition: 0.3s;
+  max-width: 30px;
 }
 
 .header__lang-link:last-child {
   margin-right: 0;
 }
 
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 568px) {
   .header__lang-link {
     max-width: 22px;
-    max-height: 20px;
     font-size: 18px;
     line-height: 20px;
   }

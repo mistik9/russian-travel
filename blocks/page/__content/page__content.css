@@ -1,11 +1,11 @@
 .page__content {
   box-sizing: border-box;
-  margin: 56px 48px 92px 48px;
+  margin: 56px 0 92px 0;
 }
 
 @media screen and (max-width: 1124px) {
   .page__content {
-    margin: 48px 48px 92px 48px;
+    margin: 48px 0 92px 0;
   }
 }
 
