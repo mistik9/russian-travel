@@ -7,3 +7,15 @@
   margin: 0;
   align-self: start;
 }
+
+@media screen and (max-width: 968px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
