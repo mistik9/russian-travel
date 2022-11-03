@@ -14,16 +14,11 @@
   text-rendering: optimizeLegibility;
 }
 
-* {
-outline: 1px solid red;
-}
-
 @media screen and (max-width: 1124px) {
   .page {
     padding: 28px 0 24px;
   }
 }
-
 
 @media screen and (max-width: 984px) {
   .page {

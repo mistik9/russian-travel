@@ -7,12 +7,6 @@
 
 @media screen and (max-width: 1124px) {
   .content__section {
-    margin:0;
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .content__section {
-    margin:0;
+    margin: 0;
   }
 }

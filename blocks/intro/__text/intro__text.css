@@ -6,3 +6,9 @@
   margin-bottom: 33px;
   max-width: 690px;
 }
+
+@media screen and (max-width: 568px) {
+  .intro__title {
+    width: 100%;
+  }
+}
